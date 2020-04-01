@@ -1,0 +1,30 @@
+{{#d-modal-body title=(theme-prefix "modal.title") class="insert-whereby"}}
+<div class="insert-whereby-form">
+  <div class="insert-whereby-input">
+    <label>
+      {{theme-i18n "room_name_label"}}
+    </label>
+    {{text-field value=wherebyRoom}}
+  </div>
+
+  <div class="insert-whereby-input">
+    <label>
+      {{theme-i18n "subdomain_label"}}
+    </label>
+    {{text-field value=wherebySubdomain}}
+  </div>
+
+  <div class="insert-whereby-input">
+    <label>
+      {{theme-i18n "button_text_label"}}
+    </label>
+    {{text-field value=buttonText placeholderKey=(theme-prefix "launch_whereby")}}
+  </div>
+
+</div>
+{{/d-modal-body}}
+
+<div class="modal-footer">
+  {{d-button class="btn-primary" disabled=insertDisabled label=(theme-prefix "modal.insert") action=(action "insert")}}
+  {{d-button class="btn-danger" label=(theme-prefix "modal.cancel") action=(action "cancel")}}
+</div>

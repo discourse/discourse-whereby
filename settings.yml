@@ -1,0 +1,16 @@
+only_available_to_staff:
+  default: false
+whereby_subdomain:
+  default: ""
+  description: "Your custom Whereby subdomain if available."
+whereby_iframe_source:
+  default: ""
+  description: "Usually your Whereby subdomain. Used for CSP"
+button_icon:
+  default: "video"
+  description: "Enter the name of the FontAwesome 5 icon to display in the Jitsi button. "
+svg_icons:
+  default: "video"
+  type: "list"
+  list_type: "compact"
+  description: "If using a custom icon, add it to this field too (in addition to 'button_icon' above."

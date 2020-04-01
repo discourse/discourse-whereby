@@ -1,0 +1,11 @@
+{
+  "name": "Discourse Whereby",
+  "about_url": null,
+  "license_url": null,
+  "component": true,
+  "assets": {},
+  "color_schemes": {},
+  "modifiers": {
+    "svg_icons": ["video"]
+  }
+}

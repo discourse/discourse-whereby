@@ -1,0 +1,30 @@
+.insert-whereby-input {
+  margin-bottom: 1em;
+}
+
+div.d-wrap[data-wrap="discourse-whereby"] {
+  height: 500px;
+
+  .placeholder {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #e9e9e9;
+    span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.8;
+      &.icon {
+        font-size: 100px;
+      }
+      &.description {
+        margin-top: 10%;
+      }
+    }
+  }
+}

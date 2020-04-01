@@ -1,0 +1,10 @@
+en:
+  composer_title: Discourse Whereby
+  subdomain_label: Whereby Subdomain (optional)
+  room_name_label: Whereby Room Name
+  button_text_label: Button label (optional)
+  launch_whereby: Start Video Meeting
+  modal:
+    insert: Insert
+    cancel: Cancel
+    title: Add Whereby Integration
